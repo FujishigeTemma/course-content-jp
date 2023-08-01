@@ -19,7 +19,8 @@ NMAの最初の2日間は、モデリングのプロセスとモデルについ�
 ビデオは以下のリンクからご覧いただけます：https://youtube.com/watch?v=W5o_HTsef0I
 <YouTube id="cV2q-vpdKUA" />
 
+
 ### スライド
 スライドは以下からダウンロードできます： https://osf.io/download/rbx2a/
 
-TODO: ここはスライドを挿入するコードですかね？
+TODO: ここにスライドを挿入する。
