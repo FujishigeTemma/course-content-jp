@@ -1,8 +1,27 @@
 import mathjax3 from "markdown-it-mathjax3";
 import Unocss from "unocss/vite";
-import { defineConfig } from "vitepress";
+import { HeadConfig, defineConfig } from "vitepress";
 
 const customElements = ["mjx-container"];
+
+const tags: HeadConfig[] = [
+  ["meta", { property: "og:type", content: "website" }],
+  ["meta", { property: "og:title", content: "NMA Computational Neuroscience" }],
+  [
+    "meta",
+    {
+      property: "og:description",
+      content: "NMA Computational Neuroscience JP translation",
+    },
+  ],
+  [
+    "meta",
+    {
+      property: "og:image",
+      content: "https://compneuro.neuromatch.jp/nma-logo.png",
+    },
+  ],
+];
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -10,6 +29,7 @@ export default defineConfig({
   title: "計算論的神経科学",
   titleTemplate: "Neuromatch Academy: Computational Neuroscience",
   description: "Neuromatch Academy: Computational Neuroscience",
+  head: tags,
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
