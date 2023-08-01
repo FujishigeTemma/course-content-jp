@@ -3,8 +3,7 @@
   "filters": {},
   "rules": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": true,
-    "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
-    "@textlint-ja/textlint-rule-no-synonyms": true,
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": true, 
     "textlint-rule-no-mix-dearu-desumasu": true,
     "textlint-rule-no-double-negative-ja": true,
     "textlint-rule-ja-no-abusage": true,

@@ -2,6 +2,7 @@
 import { useData } from "vitepress";
 import Theme from "vitepress/theme";
 import Comment from "../components/Comment.vue";
+import Footer from "../components/Footer.vue";
 import LinkToOriginal from "../components/LinkToOriginal.vue";
 import OpenInColab from "../components/OpenInColab.vue";
 
@@ -29,6 +30,10 @@ const { page, frontmatter } = useData();
 
     <template #doc-footer-before>
       <Comment v-if="!frontmatter.disableComment" :key="page.relativePath" />
+    </template>
+
+    <template #doc-after>
+      <Footer />
     </template>
   </Layout>
 </template>

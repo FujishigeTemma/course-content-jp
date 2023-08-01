@@ -1,3 +1,9 @@
+---
+original: https://compneuro.neuromatch.io/prereqs/ComputationalNeuroscience.html
+next:
+  text: 講義一覧
+  link: /tutorials/
+---
 # 前提知識と準備資料
 [Neuromatchアカデミー](https://academy.neuromatch.io/)へようこそ！　私たちは幅広く多様な方に計算神経科学を学んでいただけることを本当に楽しみにしています。あなたのために素晴らしい一連の講義とチュートリアルを準備しています！
 

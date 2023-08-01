@@ -16,7 +16,6 @@ const members = [
   {
     avatar: "https://www.github.com/xShoka.png",
     name: "門井 翔佳",
-    title: "CEO",
     org: "KABUTO Technologies",
     links: [
       { icon: "github", link: "https://github.com/xShoka" },
@@ -27,5 +26,7 @@ const members = [
 </script>
 
 # 翻訳・監修
+
+翻訳に協力してくれるひとを募集しています。一回だけの翻訳でも歓迎です。気軽にコメントやissue、PRとか送ってください🥳
 
 <VPTeamMembers size="small" :members="members" />
