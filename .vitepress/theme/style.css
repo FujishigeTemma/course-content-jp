@@ -96,3 +96,25 @@
   --vp-font-family-base: "Noto Sans JP", sans-serif;
   --vp-font-family-mono: "Noto Sans Mono", monospace;
 }
+
+/**
+ * LaTeX
+ * -------------------------------------------------------------------------- */
+mjx-container > svg {
+  display: block !important;
+  margin: auto !important;
+}
+p > mjx-container,
+li > mjx-container {
+  display: inline-block !important;
+}
+
+/**
+ * Headers
+ * -------------------------------------------------------------------------- */
+.vp-doc h3 {
+  margin: 32px 0 12px;
+}
+.vp-doc h4 {
+  margin: 24px 0 8px;
+}
